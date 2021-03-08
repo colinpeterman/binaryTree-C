@@ -1,0 +1,32 @@
+By: Colin Peterman
+
+I certify that I completed all of the work myself with no aid from anyone aside from the instructor or the undergraduate graders.
+
+
+
+To Run:
+
+binarytree (“do you want balanced?” y for Balanced or n for BST) (f for a file or m for manual) (filename if using a file)
+
+Default is Balanced BST
+
+“binarytree n f testfile” = BST using testfile
+“binarytree y f testfile” = Balanced BST using testfile
+“binarytree n m” = BST entering manually
+“binarytree y m” = Balanced BST entering manually 
+“binarytree” = Balanced BST with no File
+
+1. The linked structures were pointing to one child and had a reference to this while the binary tree nodes have a left and ride side/child which they can reference down to if needed. 
+2. If the tree is empty then I will just print out a message letting them know that the tree is empty and has nothing inside of it!
+3. I feel as if it is possible and could be quite useful with the trees because you may be able to pass over a node and insert it there.
+
+
+4. I chose to balance my tree by deciding to insert on the left or right depending on how many nodes were on each side making sure they were always within one. If one side had more than it inserted it in the side that had less and if they were equal then it just did a normal insertion.
+5. I did not end up using any structures to help balance it, because I did not see a need for it. However, I did use a char string[100] to help with the deletion of a character. 
+6. I think it would have been possible still since it was very similar to the binary search tree I did at first. I believe if that one was possible then this would be as well.
+
+7. Done
+8. I wanted to choose user friendly options that would be hard to mess up and easy for me to implement.
+9. Done
+10. I did not worry about it as there are clear instructions so I do not think that this should be something to worry about as it is easy to run with instructions.
+
